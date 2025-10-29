@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.clock-container {
+  text-align: center;
+}
+
+#clock {
+  font-size: 4rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #222;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.dark {
+  background: #222;
+  color: #fff;
+}
